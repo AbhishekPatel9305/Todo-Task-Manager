@@ -20,8 +20,4 @@ A simple and efficient task management web application that helps users add, del
 ## Project Purpose
 This project was created for practice and learning basic front-end development skills.
 
-## Project Files
-Local project file paths:
-- /mnt/data/index.html
-- /mnt/data/style.css
-- /mnt/data/app.js
+
