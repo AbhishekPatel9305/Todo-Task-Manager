@@ -1,24 +1,39 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f4f8;
-    text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 40px 16px;
+    color: #1f2937;
+}
+
+.app-shell {
+    max-width: 560px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+    padding: 32px 24px;
 }
 
 h1 {
-    background-color: #0077cc;
-    color: white;
-    padding: 20px 0;
-    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #0f172a;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 input {
     padding: 10px;
-    width: 200px;
+    flex: 1;
     border: 1px solid #ccc;
     border-radius: 6px;
-    margin-right: 10px;
+    font-size: 16px;
 }
 
 button {
@@ -37,7 +52,6 @@ button:hover {
 ol {
     list-style-type: decimal;
     padding: 0;
-    max-width: 400px;
     margin: 0 auto;
     text-align: left;
 }
@@ -59,4 +73,10 @@ li {
 
 .delete:hover {
     background-color: #cc0000;
+}
+
+.empty-state {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 0;
 }
