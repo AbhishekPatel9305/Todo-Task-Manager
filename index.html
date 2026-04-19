@@ -3,16 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Todo Task Manager</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Todo App</h1>
-<input placeholder="Add Task">
-<button>Add Task</button>
-<ol>
-  <li>Eat <button class = "delete">Delete</button></li><br>
-</ol>
-  <script src = "app.js"></script>
+  <main class="app-shell">
+    <h1>Todo Task Manager</h1>
+    <form id="task-form" class="task-form">
+      <input id="task-input" placeholder="Add a new task" aria-label="Task name">
+      <button type="submit">Add Task</button>
+    </form>
+    <p id="empty-state" class="empty-state">No tasks yet. Add your first task to get started.</p>
+    <ol id="task-list"></ol>
+  </main>
+  <script src="app.js"></script>
 </body>
 </html>
