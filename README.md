@@ -1,17 +1,17 @@
 # Todo Task Manager
 
-A lightweight task management web application built with HTML, CSS, and JavaScript. The project focuses on core front-end functionality for adding and deleting tasks in a simple browser-based interface.
+A lightweight task management web application built with HTML, CSS, and JavaScript. The project now includes persistent task storage in the browser, making it a cleaner and more practical front-end productivity app.
 
 ## Overview
 
-This repository is a beginner-friendly productivity project designed to practice DOM manipulation, event handling, and basic user interface structure using plain web technologies.
+This repository is a beginner-friendly project designed to practice DOM manipulation, event handling, browser storage, and clean user interface structure using plain web technologies.
 
 ## Features
 
 - add new tasks
-- remove tasks from the list
-- clean browser-based interface
-- no external frameworks required
+- delete existing tasks
+- persist tasks with local storage
+- simple responsive layout with no external frameworks
 
 ## Tech Stack
 
@@ -30,12 +30,12 @@ This project demonstrates:
 
 - JavaScript DOM manipulation
 - event-driven UI interactions
-- basic task list logic
+- local storage persistence
 - front-end project structuring with vanilla web technologies
 
 ## Future Improvements
 
-- add local storage persistence
 - support task completion states
 - add edit functionality
-- improve responsive layout and visual design
+- add filters for active and completed tasks
+- improve mobile responsiveness further
